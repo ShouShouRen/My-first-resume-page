@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500&display=swap");
+body {
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  list-style: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 80px;
+  line-height: 95px;
+  padding-bottom: 24px;
+  border-bottom: 2px solid #000;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #000;
+}
+.title span {
+  color: #a00404;
+  font-size: 24px;
+  margin-left: 16px;
+}
+
+.profile-content li {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 300;
+}
+
+.edu-content li {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 300;
+}
+
+.skill-content {
+  background-color: #415165;
+  padding-top: 24px;
+  padding-left: 102px;
+  padding-right: 102px;
+  padding-bottom: 52px;
+}
+
+.dark-title {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #fff;
+}
+.dark-title span {
+  color: #fff;
+}
+
+.skills {
+  margin: 0 auto;
+  margin-top: 42px;
+  border-left: 1px solid #96a9c4;
+  width: max-content;
+}
+.skills li {
+  padding-left: 24px;
+  font-size: 24px;
+  line-height: 36px;
+  color: #fff;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.exp-content {
+  border-left: 1px solid #96a9c4;
+  padding-left: 24px;
+  margin-left: 24px;
+}
+.exp-content h3 {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 500;
+}
+.exp-content p {
+  font-size: 20px;
+  font-weight: 300;
+  width: 642px;
+  line-height: 30px;
+}
+
+footer {
+  background-color: #415165;
+  padding-top: 24px;
+  padding-bottom: 48px;
+}
+
+.footer-content {
+  width: 1200px;
+  margin: 0 auto;
+}
+.footer-content ul {
+  text-align: center;
+}
+.footer-content li {
+  color: #fff;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 300;
+  margin-bottom: 16px;
+}
+.footer-content a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer-content a:hover {
+  color: #b4b4b4;
+}
+
+.sns-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.center {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.pic {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
+}
+
+.mb-32 {
+  margin-bottom: 32px;
+}
+
+.mb-48 {
+  margin-bottom: 48px;
+}
+
+.mb-72 {
+  margin-bottom: 72px;
+}
+.img{
+    position: relative;
+}
+.in{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+}
